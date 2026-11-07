@@ -8,7 +8,7 @@ they are all in a folder called all themes, down a bit is where you can see what
 2. drag ChatBubble.css into your theme folder. (there should be a button to open the theme folder in theme settings)
 
 # discord server
-need help or want to reach out? join the discord https://discord.gg/39rurcEgT
+need help or want to reach out? join the discord https://discord.gg/39rurcEgT](https://discord.gg/STxCQ3uZzP
 
 # this is what the themes look like
 
