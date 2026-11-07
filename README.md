@@ -12,7 +12,7 @@ need help or want to reach out? join the discord https://discord.gg/39rurcEgT
 
 # this is what the themes look like
 
-# <img width="487" height="141" alt="default" src="https://github.com/user-attachments/assets/62f67059-5ebb-4634-9d75-0fb233e78625" />
+<img width="487" height="141" alt="default" src="https://github.com/user-attachments/assets/62f67059-5ebb-4634-9d75-0fb233e78625" />
 
 ^ this is the default theme
 
@@ -20,3 +20,14 @@ need help or want to reach out? join the discord https://discord.gg/39rurcEgT
 
 ^ this is pastel
 
+<img width="488" height="138" alt="mint" src="https://github.com/user-attachments/assets/dd8b6066-4cb5-464a-a8ff-c6287d3104f3" />
+
+^ this is mint
+
+<img width="488" height="133" alt="crimson" src="https://github.com/user-attachments/assets/80f55c8a-4f68-406a-b7c3-cbef7e610591" />
+
+^ this is crimson
+
+<img width="490" height="138" alt="monochrome" src="https://github.com/user-attachments/assets/00a570d6-094f-4f6b-aa8a-087d88bfe0fc" />
+
+^ this is monochrome
