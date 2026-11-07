@@ -1,0 +1,282 @@
+/**
+ * @name Chat Bubbles
+ * @author BenTiger1
+ * @description A theme that makes the chats look like bubbles.
+ * @version 1.0
+ * @source https://github.com/bentiger1/ChatBubble
+ * @invite 39rurcEgT
+*/
+
+/*
+============
+chat bubbles
+============ 
+*/
+
+.messageListItem_SY_P2T {
+    background: transparent !important;
+    margin-bottom: 10px !important;
+}
+
+.message_SY_P2T {
+    display: block !important;
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.contents_2i8Bfm {
+    display: flex !important;
+    flex-direction: column !important;
+    position: relative !important;
+    background: transparent !important;
+    width: fit-content !important;
+    max-width: min(70%, 520px) !important;
+    box-sizing: border-box !important;
+    gap: 0 !important;
+}
+
+.contents_2i8Bfm > .avatar_2i8Bfm {
+    position: absolute !important;
+    top: 0 !important;
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    z-index: 2 !important;
+    object-fit: cover !important;
+}
+
+.contents_2i8Bfm > .avatarDecoration_2i8Bfm {
+    position: absolute !important;
+    top: -6px !important;
+    width: 52px !important;
+    height: 52px !important;
+    z-index: 3 !important;
+    pointer-events: none !important;
+    object-fit: contain !important;
+}
+
+.contents_2i8Bfm > .header_2i8Bfm {
+    display: flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 8px 14px 0 14px !important;
+    margin: 0 !important;
+    background: #1b1b29 !important;
+    border: 1px solid #303044 !important;
+    border-bottom: none !important;
+    border-radius: 16px 16px 0 0 !important;
+}
+
+.contents_2i8Bfm > .messageContent_2i8Bfm {
+    display: block !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 3px 14px 10px 14px !important;
+    margin: 0 !important;
+    background: #1b1b29 !important;
+    border: 1px solid #303044 !important;
+    border-top: none !important;
+    border-radius: 0 0 16px 16px !important;
+    color: #b0b6c8 !important;
+    line-height: 1.4 !important;
+}
+
+.messageListItem_SY_P2T:not(:has(.header_2i8Bfm)) .messageContent_2i8Bfm,
+.contents_2i8Bfm > .messageContent_2i8Bfm:only-child {
+    border-radius: 16px !important;
+    border: 1px solid #303044 !important;
+    padding: 8px 14px !important;
+}
+
+.messageListItem_SY_P2T:not(:has(.header_2i8Bfm)):not(:has(.isSystemMessage_2i8Bfm)) .timestamp_2i8Bfm {
+    display: none !important;
+}
+
+.messageListItem_SY_P2T:not(:has(.header_2i8Bfm)):not(:has(.isSystemMessage_2i8Bfm)):hover .timestamp_2i8Bfm {
+    display: inline-block !important;
+    position: absolute !important;
+    top: auto !important;
+    bottom: -24px !important;
+    left: 0 !important;
+    font-size: 0.7rem !important;
+    color: #a0a8c0 !important;
+    background: #1b1b29 !important;
+    padding: 3px 9px !important;
+    border-radius: 8px !important;
+    border: 1px solid #303044 !important;
+    z-index: 30 !important;
+    white-space: nowrap !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.messageListItem_SY_P2T:not(:has(.isSystemMessage_2i8Bfm)) .contents_2i8Bfm:hover > .header_2i8Bfm,
+.messageListItem_SY_P2T:not(:has(.isSystemMessage_2i8Bfm)) .contents_2i8Bfm:hover > .messageContent_2i8Bfm {
+    background: #222233 !important;
+}
+
+.contents_2i8Bfm > .messageContent_2i8Bfm:empty {
+    display: none !important;
+}
+
+.contents_2i8Bfm > .header_2i8Bfm:has(+ .messageContent_2i8Bfm:empty) {
+    border-radius: 16px !important;
+    border-bottom: 1px solid #303044 !important;
+    padding-bottom: 8px !important;
+}
+
+/* Media */
+.container_YUQhib:not(:empty) {
+    display: table !important;
+    width: fit-content !important;
+    max-width: min(70%, 520px) !important;
+    padding: 6px !important;
+    margin-top: 6px !important;
+    background: #1b1b29 !important;
+    border: 1px solid #303044 !important;
+    border-radius: 16px !important;
+}
+
+.container_YUQhib img {
+    border-radius: 12px !important;
+    max-width: 100%;
+}
+
+/*
+============
+L/R Aligment
+============
+*/
+
+/* others -> left */
+.messageListItem_SY_P2T[data-is-self="false"] .contents_2i8Bfm {
+    margin-left: 56px !important;
+    margin-right: auto !important;
+}
+
+.messageListItem_SY_P2T[data-is-self="false"] .avatar_2i8Bfm {
+    left: -50px !important;
+    right: auto !important;
+}
+
+.messageListItem_SY_P2T[data-is-self="false"] .avatarDecoration_2i8Bfm {
+    left: -56px !important;
+    right: auto !important;
+}
+
+.messageListItem_SY_P2T[data-is-self="false"] .container_YUQhib {
+    margin-left: 56px !important;
+    margin-right: auto !important;
+}
+
+/* U -> right */
+.messageListItem_SY_P2T[data-is-self="true"] .contents_2i8Bfm {
+    margin-left: auto !important;
+    margin-right: 56px !important;
+}
+
+.messageListItem_SY_P2T[data-is-self="true"] .avatar_2i8Bfm {
+    left: auto !important;
+    right: -50px !important;
+}
+
+.messageListItem_SY_P2T[data-is-self="true"] .avatarDecoration_2i8Bfm {
+    left: auto !important;
+    right: -56px !important;
+}
+
+.messageListItem_SY_P2T[data-is-self="true"] .container_YUQhib {
+    margin-left: auto !important;
+    margin-right: 56px !important;
+}
+
+.messageListItem_SY_P2T[data-is-self="true"] .header_2i8Bfm,
+.messageListItem_SY_P2T[data-is-self="true"] .messageContent_2i8Bfm,
+.messageListItem_SY_P2T[data-is-self="true"] .container_YUQhib {
+    background: #181f33 !important;
+    border-color: #2e3a5a !important;
+}
+
+.messageListItem_SY_P2T[data-is-self="true"]:not(:has(.isSystemMessage_2i8Bfm)) .contents_2i8Bfm:hover > .header_2i8Bfm,
+.messageListItem_SY_P2T[data-is-self="true"]:not(:has(.isSystemMessage_2i8Bfm)) .contents_2i8Bfm:hover > .messageContent_2i8Bfm {
+    background: #1c2640 !important;
+}
+
+.messageListItem_SY_P2T[data-is-self="true"] .messageContent_2i8Bfm {
+    color: #b0b6c8 !important;
+}
+
+.timestamp_2i8Bfm {
+    font-size: 0.72rem !important;
+    opacity: 0.85 !important;
+    color: #a0a8c0 !important;
+}
+
+.messageListItem_SY_P2T[data-is-self="true"] .timestamp_2i8Bfm {
+    color: #b8c4e0 !important;
+}
+
+/*
+================
+call msg styling
+================
+*/
+
+.messageListItem_SY_P2T:has(.isSystemMessage_2i8Bfm) .messageContent_2i8Bfm {
+    padding: 10px 16px !important;
+    border-radius: 16px !important;
+    line-height: 1.6 !important;
+}
+.messageListItem_SY_P2T:has(.isSystemMessage_2i8Bfm) .content_bLMKT5 {
+    padding: 4px 6px !important;
+    line-height: 1.6 !important;
+}
+
+.messageListItem_SY_P2T:has(.isSystemMessage_2i8Bfm) .timestamp_2i8Bfm {
+    display: inline-block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: static !important;
+    bottom: auto !important;
+    left: auto !important;
+    margin-left: 8px !important;
+    font-size: 0.72rem !important;
+    color: #a0a8c0 !important;
+    white-space: normal !important;
+}
+
+.messageListItem_SY_P2T:has(.isSystemMessage_2i8Bfm) .separator_2i8Bfm {
+    display: none !important;
+}
+
+.messageListItem_SY_P2T:has(.isSystemMessage_2i8Bfm) .timestamp_2i8Bfm time::before {
+    content: "Call started at " !important;
+    color: #a0a8c0 !important;
+}
+
+.messageListItem_SY_P2T:has(.isSystemMessage_2i8Bfm) .timestamp_2i8Bfm .hiddenVisually_FX8kaC {
+    display: inline !important;
+    position: static !important;
+    clip: auto !important;
+    clip-path: none !important;
+    width: auto !important;
+    height: auto !important;
+    overflow: visible !important;
+    white-space: normal !important;
+    margin-left: 5px !important;
+    color: #a0a8c0 !important;
+    font-size: 0.72rem !important;
+}
+
+.messageListItem_SY_P2T:has(.isSystemMessage_2i8Bfm) .contents_2i8Bfm:hover > .messageContent_2i8Bfm {
+    background: #1b1b29 !important;
+    border-color: #303044 !important;
+}
+.messageListItem_SY_P2T:has(.isSystemMessage_2i8Bfm) .messageContent_2i8Bfm,
+.messageListItem_SY_P2T:has(.isSystemMessage_2i8Bfm) .container_bLMKT5,
+.messageListItem_SY_P2T:has(.isSystemMessage_2i8Bfm) .content_bLMKT5 {
+    transition: none !important;
+}
