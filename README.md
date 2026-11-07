@@ -13,4 +13,9 @@ need help or want to reach out? join the discord https://discord.gg/39rurcEgT
 # this is what the themes look like
 
 <img width="487" height="141" alt="default" src="https://github.com/user-attachments/assets/62f67059-5ebb-4634-9d75-0fb233e78625" />
-this is the default theme
+
+^ this is the default theme
+
+<img width="488" height="134" alt="pastel" src="https://github.com/user-attachments/assets/87ead3a9-1a97-43ba-926e-ae65f34cb368" />
+
+^ this is pastel
