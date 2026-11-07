@@ -3,8 +3,14 @@ a discord theme/mod that turns your chats into chat bubbles so it looks like mos
 
 # install
 ### vencord/betterdiscord (or any client that supports theme files)
+they are all in a folder called all themes, down a bit is where you can see what each one looks like
 1. download the theme file, ChatBubble.css, or whatever version you have
 2. drag ChatBubble.css into your theme folder. (there should be a button to open the theme folder in theme settings)
 
 # discord server
 need help or want to reach out? join the discord https://discord.gg/39rurcEgT
+
+# this is what the themes look like
+
+<img width="487" height="141" alt="default" src="https://github.com/user-attachments/assets/62f67059-5ebb-4634-9d75-0fb233e78625" />
+this is the default theme
